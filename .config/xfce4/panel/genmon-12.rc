@@ -1,0 +1,6 @@
+Command=lua /home/robert/bin/meminfo/meminfo.lua
+UseLabel=0
+Text=(genmon)
+UpdatePeriod=5000
+Font=Sans 14
+

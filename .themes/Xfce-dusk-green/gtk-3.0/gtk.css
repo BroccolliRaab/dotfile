@@ -1,0 +1,333 @@
+/* Default color scheme */
+@define-color base_color #121212;
+@define-color bg_color #202020;
+@define-color tooltip_bg_color #202020;
+@define-color selected_bg_color #2eb398;
+@define-color text_color #fcfcfc;
+@define-color fg_color #fcfcfc;
+@define-color tooltip_fg_color #fcfcfc;
+@define-color selected_fg_color #fcfcfc;
+
+/* Colormap actually used by the theme, to be overridden in other css files */
+@define-color theme_base_color @base_color;
+@define-color theme_text_color @text_color;
+@define-color theme_bg_color @bg_color;
+@define-color theme_fg_color @fg_color;
+@define-color theme_tooltip_bg_color @tooltip_bg_color;
+@define-color theme_tooltip_fg_color @tooltip_fg_color;
+@define-color theme_selected_bg_color @selected_bg_color;
+@define-color theme_selected_fg_color @selected_fg_color;
+
+@define-color menu_bg_color @theme_bg_color;
+@define-color menu_fg_color @text_color;
+@define-color menu_controls_color #c0c0c0;
+@define-color menu_border #121212;
+
+@define-color link_color #2eb398;
+@define-color frame_color #8a9580;
+@define-color inactive_frame_color #c7ccc1;
+@define-color warning_color #f57900;
+@define-color error_color #cc0000;
+@define-color success_color #4e9a06;
+
+@define-color info_fg_color rgb (181, 171, 156);
+@define-color info_bg_color rgb (252, 252, 189);
+@define-color warning_fg_color rgb (173, 120, 41);
+@define-color warning_bg_color rgb (250, 173, 61);
+@define-color question_fg_color rgb (97, 162, 114);
+@define-color question_bg_color rgb (60, 173, 112);
+@define-color error_fg_color rgb (166, 38, 38);
+@define-color error_bg_color rgb (237, 54, 54);
+
+@define-color keyboard_focus_border_a #22e8a3;
+@define-color keyboard_focus_border_b #2eb398;
+
+@define-color os_chrome_bg_color black;
+@define-color os_chrome_fg_color #202020;
+@define-color os_chrome_selected_bg_color #202020;
+@define-color os_chrome_selected_fg_color white;
+
+@define-color chrome_bg_color #1e1a17;
+@define-color chrome_fg_color #fff;
+
+@define-color focused_entry_border #22e8a3;
+@define-color focused_entry_inset alpha (#d7e4f1, 0.50);
+
+@define-color button_gradient_color_a #f4f6f4;
+@define-color button_gradient_color_b #d6f0e1;
+@define-color button_border #353535;
+
+@define-color button_hover_gradient_color_a @theme_base_color;
+@define-color button_hover_gradient_color_b shade (@button_gradient_color_a, 0.94);
+
+@define-color button_active_gradient_color_a #a2a9a2;
+@define-color button_active_gradient_color_b shade (@button_active_gradient_color_a, 0.83);
+
+@define-color insensitive_bg_color #202020;
+@define-color insensitive_fg_color #a7aba7;
+@define-color insensitive_border_color shade (@internal_element_color, 1.37);
+
+@define-color trough_bg_color_a #ccccc7;
+@define-color trough_bg_color_b #e4e4e1;
+
+@define-color active_switch_bg_color_a #2dc48f;
+@define-color active_switch_bg_color_b #2eb398;
+
+@define-color switch_slider_color #eeeeec;
+@define-color switch_slider_border #25eac2;
+
+@define-color progressbar_background_a #2be29f;
+@define-color progressbar_background_b #25eac2;
+@define-color progressbar_border #2fce84;
+
+@define-color internal_element_color #202020;
+
+@define-color scale_fill @insensitive_border_color;
+@define-color scale_border_a @internal_element_color;
+@define-color scale_border_b shade (@internal_element_color, 1.25);
+@define-color scale_progress_fill #2eb398;
+@define-color scale_progress_border_a #2be29f;
+@define-color scale_progress_border_b #2eb398;
+
+@define-color highlighted_border #8a8f8a;
+
+@define-color notebook_border #101010;
+@define-color notebook_tab_gradient_a @theme_base_color;
+@define-color notebook_tab_gradient_b @switch_slider_color;
+
+@define-color notebook_active_tab_border #2eb398;
+@define-color notebook_unselected_tab_color #181818;
+@define-color notebook_selected_tab_color #2eb398;
+
+@define-color toolbar_gradient_base #aaaa9e;
+@define-color toolbar_gradient_step1 #bcbcb4;
+@define-color toolbar_gradient_step2 #d9d9d7;
+@define-color toolbar_gradient_final #e5e5e2;
+
+@define-color toolbar_active_button_color #909081;
+
+@define-color expander_row_selected_color #aaaaaa;
+
+*:disabled {
+  -gtk-icon-effect: dim; }
+
+.gtkstyle-fallback {
+  background-color: #383C4A;
+  color: #D3DAE3; }
+  .gtkstyle-fallback:hover {
+    background-color: #4e5467;
+    color: #D3DAE3; }
+  .gtkstyle-fallback:active {
+    background-color: #22242d;
+    color: #D3DAE3; }
+  .gtkstyle-fallback:disabled {
+    background-color: #3c4150;
+    color: rgba(211, 218, 227, 0.45); }
+  .gtkstyle-fallback:selected {
+    background-color: #5294e2;
+    color: #ffffff; }
+entry {
+  min-height: 22px;
+  border: 1px solid;
+  padding: 2px 8px;
+  caret-color: currentColor;
+  border-radius: 3px;
+  color: #D3DAE3;
+  border-color: #2b2e39;
+  background-color: #404552; }
+
+  entry progress {
+    margin: 0 -6px;
+    border-radius: 0;
+    border-width: 0 0 2px;
+    border-color: #5294e2;
+    border-style: solid;
+    background-image: none;
+    background-color: transparent;
+    box-shadow: none; }
+
+
+
+modelbutton.flat {
+  transition: none;
+  min-height: 24px;
+  padding-left: 8px;
+  padding-right: 8px;
+  outline-offset: -3px;
+  border-radius: 2px; }
+  scrollbar {
+  background-color: #3e434f;
+  transition: 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94); }
+  * {
+    -GtkScrollbar-has-backward-stepper: false;
+    -GtkScrollbar-has-forward-stepper: false; }
+  scrollbar.top {
+    border-bottom: 1px solid #2b2e39; }
+  scrollbar.bottom {
+    border-top: 1px solid #2b2e39; }
+  scrollbar.left {
+    border-right: 1px solid #2b2e39; }
+  scrollbar.right {
+    border-left: 1px solid #2b2e39; }
+  scrollbar button, scrollbar .budgie-panel button, .budgie-panel scrollbar button {
+    border: none; }
+  scrollbar.vertical button.down {
+    -gtk-icon-source: -gtk-icontheme("pan-down-symbolic"); }
+  scrollbar.vertical button.up {
+    -gtk-icon-source: -gtk-icontheme("pan-up-symbolic"); }
+  scrollbar.horizontal button.down {
+    -gtk-icon-source: -gtk-icontheme("pan-right-symbolic"); }
+  scrollbar.horizontal button.up {
+    -gtk-icon-source: -gtk-icontheme("pan-left-symbolic"); }
+  scrollbar slider {
+    min-width: 6px;
+    min-height: 6px;
+    margin: -1px;
+    border: 4px solid transparent;
+    border-radius: 8px;
+    background-clip: padding-box;
+    background-color: #767b87; }
+    scrollbar slider:hover {
+      background-color: #676b78; }
+    scrollbar slider:hover:active {
+      background-color: #5294e2; }
+    scrollbar slider:disabled {
+      background-color: transparent; }
+  scrollbar.fine-tune slider {
+    min-width: 4px;
+    min-height: 4px; }
+  scrollbar.fine-tune.horizontal slider {
+    border-width: 5px 4px; }
+  scrollbar.fine-tune.vertical slider {
+    border-width: 4px 5px; }
+  scrollbar.overlay-indicator:not(.dragging):not(.hovering) {
+    opacity: 0.4;
+    border-color: transparent;
+    background-color: transparent; }
+    scrollbar.overlay-indicator:not(.dragging):not(.hovering) slider {
+      margin: 0;
+      min-width: 4px;
+      min-height: 4px;
+      background-color: #a5abb5;
+      border: 1px solid rgba(0, 0, 0, 0.3); }
+    scrollbar.overlay-indicator:not(.dragging):not(.hovering).horizontal slider {
+      margin: 0 2px;
+      min-width: 40px; }
+    scrollbar.overlay-indicator:not(.dragging):not(.hovering).vertical slider {
+      margin: 2px 0;
+      min-height: 40px; }
+  scrollbar.overlay-indicator.dragging, scrollbar.overlay-indicator.hovering {
+    opacity: 0.99; }
+  scrollbar.horizontal slider {
+    min-width: 40px; }
+  scrollbar.vertical slider {
+    min-height: 40px; }
+
+scale {
+  min-height: 15px;
+  min-width: 15px;
+  padding: 3px; }
+  scale.horizontal trough {
+    padding: 0 4px; }
+  scale.horizontal  scale.horizontal fill {
+    margin: 0 -4px; }
+  scale.vertical trough {
+    padding: 4px 0; }
+  scale.vertical  scale.vertical fill {
+    margin: -4px 0; }
+  scale slider {
+    min-height: 15px;
+    min-width: 15px;
+    margin: -6px; }
+  scale.fine-tune slider {
+    margin: -4px; }
+    scale trough {
+    min-height: 3px;
+    min-width: 3px;
+    outline-offset: 2px;
+    -gtk-outline-radius: 4.5px;
+    border-radius: 2.5px;
+    background-color: #2d303b; }
+
+    .osd scale trough {
+      background-color: rgba(69, 74, 89, 0.95); }
+      .osd scale trough highlight {
+        background-color: #2eb398; }
+  scale highlight {
+    border-radius: 2.5px;
+    background-color: #2eb398; }
+scale fill {
+    border-radius: 2.5px;
+    background-color: #2d303b; }
+  scale slider {
+    background-color: #444a58;
+    border: 1px solid #262933;
+    border-radius: 100%;
+    transition: all 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transition-property: background, border; }
+    scale slider:hover {
+      background-color: #505666; }
+    scale slider:active {
+      background-clip: border-box;
+      background-color: #2eb398;
+      border-color: #2eb398; }
+    row:selected scale slider,
+    infobar scale slider {
+      background-clip: border-box;
+      background-color: #ffffff;
+      border-color: #ffffff; }
+      row:selected scale slider:hover,
+      infobar scale slider:hover {
+        background-color: #e5effb;
+        border-color: #e5effb; }
+      row:selected scale slider:active,
+    .osd scale slider {
+      background-clip: border-box;
+      background-color: #2eb398;
+      border-color: #2eb398; }
+      .osd scale slider:hover {
+        background-color: #7eafe9;
+        border-color: #7eafe9; }
+      .osd scale slider:active {
+        background-color: #2679db;
+        border-color: #2679db; }
+  scale value {
+    color: alpha(currentColor,0.4); }
+  scale marks {
+    color: alpha(currentColor,0.4); }
+    scale marks.top {
+      margin-bottom: 1px;
+      margin-top: -4px; }
+    scale marks.bottom {
+      margin-top: 1px;
+      margin-bottom: -4px; }
+    scale marks.top {
+      margin-right: 1px;
+      margin-left: -4px; }
+    scale marks.bottom {
+    margin-bottom: 0px;
+    margin-top: -2px; }
+  scale.fine-tune marks.bottom {
+    margin-top: 0px;
+    margin-bottom: -2px; }
+  scale.fine-tune marks.top {
+    margin-right: 0px;
+    margin-left: -2px; }
+  scale.fine-tune marks.bottom {
+    margin-left: 0px;
+    margin-right: -2px; }
+  scale.horizontal indicator {
+    min-height: 3px;
+    min-width: 1px; }
+  scale.horizontal.fine-tune indicator {
+    min-height: 2px; }
+  scale.vertical indicator {
+    min-height: 1px;
+    min-width: 3px; }
+  scale.vertical.fine-tune indicator {
+    min-width: 2px; }
+
+
+
+@import url("gtk-widgets-assets.css");
+@import url("gtk-widgets.css");

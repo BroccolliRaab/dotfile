@@ -1,11 +1,17 @@
 artwork.filemask *cover*.jpg;*front*.jpg;*folder*.jpg;*cover*.png;*front*.png;*folder*.png
+cli_add_playlist_name Default
+cli_add_to_specific_playlist 1
 deadbeef_version 0.7.2
 filechooser.lastdir file:///home/robert
-gtkui.columns.playlist [{"title":"Album Art","id":"8","format":"","size":"16","align":"0","color_override":"0","color":"#ffffffff"},{"title":"♫","id":"1","format":"%playstatus%","size":"50","align":"0","color_override":"0","color":"#ff000000"},{"title":"Track No","id":"-1","format":"%tracknumber%","size":"72","align":"1","color_override":"0","color":"#ff000000"},{"title":"Band / Album Artist","id":"-1","format":"$if(%album artist%,%album artist%,Unknown Artist)","size":"150","align":"0","color_override":"0","color":"#ff000000"},{"title":"Album","id":"-1","format":"%album%","size":"217","align":"0","color_override":"0","color":"#ffffffff"},{"title":"Title","id":"-1","format":"%title%","size":"340","align":"0","color_override":"0","color":"#ff000000"},{"title":"Duration","id":"-1","format":"%length%","size":"84","align":"0","color_override":"0","color":"#ff000000"}]
-gtkui.layout.0.6.2 vbox expand="0 1" fill="1 1" homogeneous=0 {hbox expand="0 1 0" fill="1 1 1" homogeneous=0 {playtb {} seekbar {} volumebar {} } hbox expand="1 1" fill="1 1" homogeneous=1 {vbox expand="1 1" fill="1 1" homogeneous=1 {coverart {} selproperties {} } tabbed_playlist hideheaders=0 width=1906 {} } } 
+gtkui.columns.playlist [{"title":"♫","id":"1","format":"%playstatus%","size":"50","align":"0","color_override":"0","color":"#ff000000"},{"title":"Track No","id":"-1","format":"%tracknumber%","size":"72","align":"1","color_override":"0","color":"#ff000000"},{"title":"Title","id":"-1","format":"%title%","size":"340","align":"0","color_override":"0","color":"#ff000000"},{"title":"Album","id":"-1","format":"%album%","size":"217","align":"0","color_override":"0","color":"#ffffffff"},{"title":"Band / Album Artist","id":"-1","format":"$if(%album artist%,%album artist%,Unknown Artist)","size":"150","align":"0","color_override":"0","color":"#ff000000"},{"title":"Duration","id":"-1","format":"%length%","size":"84","align":"0","color_override":"0","color":"#ff000000"}]
+gtkui.layout.0.6.2 vbox expand="0 1" fill="1 1" homogeneous=0 {hbox expand="0 1 0" fill="1 1 1" homogeneous=0 {playtb {} seekbar {} volumebar {} } hbox expand="1 1" fill="1 1" homogeneous=1 {vbox expand="1 1" fill="1 1" homogeneous=1 {coverart {} selproperties {} } tabbed_playlist hideheaders=0 width=942 {} } } 
+gtkui.mmb_delete_playlist 1
+gtkui.name_playlist_from_folder 1
 gtkui.selection_properties.show_headers 1
 gtkui.statusbar.visible 1
 gtkui.tabscroll 0
+gtkui.titlebar_playing_tf %artist% - %title% - DeaDBeeF-%_deadbeef_version%
+gtkui.titlebar_stopped_tf DeaDBeeF-%_deadbeef_version%
 hotkey.key01 "Ctrl f" 0 0 find
 hotkey.key02 "Ctrl o" 0 0 open_files
 hotkey.key03 "Ctrl q" 0 0 quit
@@ -37,23 +43,38 @@ hotkey.key30 b 0 0 next
 hotkey.key31 n 0 0 playback_random
 hotkey.key32 "Ctrl k" 0 0 toggle_stop_after_album
 hotkeys_created 1
-mainwin.geometry.h 1040
-mainwin.geometry.w 3814
-mainwin.geometry.x 1930
-mainwin.geometry.y 1104
+ignore_archives 1
+junk.enable_cp1251_detection 1
+mainwin.geometry.h 508
+mainwin.geometry.w 1514
+mainwin.geometry.x 4230
+mainwin.geometry.y 1636
+network.http_user_agent deadbeef
+network.proxy.port 8080
+network.proxy.type HTTP
+output_plugin PulseAudio output plugin
 playback.loop 0
 playback.order 2
-playback.volume -27.85714
+playback.volume 0.0000000
 playlist.current 0
-playlist.cursor.0 376
-playlist.scroll.0 8198
+playlist.cursor.0 2210
+playlist.scroll.0 63842
 playlist.scroll.cursorfollowplayback 1
+playlist.scroll.followplayback 0
 playlist.tab.00000 Music
-resume.paused 1
+prefwin.geometry.h 524
+prefwin.geometry.w 729
+prefwin.geometry.x 3473
+prefwin.geometry.y 812
+replaygain_mode 0
+replaygain_scale 1
+resume.paused 0
 resume.playlist 0
-resume.position 124.85099
-resume.track 376
+resume.position 3.5294394
+resume.track 2210
 searchwin.geometry.h 150
 searchwin.geometry.w 450
 searchwin.geometry.x 3612
 searchwin.geometry.y 1005
+streamer.16_to_24 0
+streamer.8_to_16 0

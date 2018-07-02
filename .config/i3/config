@@ -174,7 +174,7 @@ bindsym $mod+s exec pcmanfm
 bindsym $mod+c exec firefox
 
 exec compton
-exec polybar example
+exec xfce4-panel --disable-wm-check
 exec_always feh --bg-scale ~/.wallpaper.jpg
 
 
@@ -232,5 +232,9 @@ mode "$mode_gaps_outer" {
         bindsym Escape mode "default"
 }
 # class                 border  backgr. text    indicator child_border
-client.focused          #F0544C #285577 #ffffff #F0544C   #F0544C
+client.focused          #0f8c61 #285577 #ffffff #0f8c61   #0f8c61
 client.focused_inactive #000000 #5f676a #ffffff #484e50   #000000
+
+#flameshot bindings
+bindsym Print exec flameshot full -p ~/captures
+bindsym $mod+Print exec flameshot gui -p ~/captures
