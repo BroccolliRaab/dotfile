@@ -1,0 +1,6 @@
+Command=sh /home/robert/bin/songcheck/songcheck.sh
+UseLabel=0
+Text=(ds
+UpdatePeriod=1000
+Font=Sans 14
+

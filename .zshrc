@@ -93,3 +93,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias calc="lua /home/robert/bin/calc/calc.lua"
+alias tb="nc termbin.com 9999"
+alias xbpsi="xbps-install"
+alias xbpsr="xbps-remove"
+alias xbpsq="xbps-query"
+alias dc="sl"
