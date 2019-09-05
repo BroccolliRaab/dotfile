@@ -1,0 +1,125 @@
+[MainWindow]
+Height 1080=2124
+Height 2160=2094
+State=AAAA/wAAAAD9AAAAAQAAAAIAAAdpAAADnPwBAAAADfsAAAAYAG4AbwB0AGUAcwBfAHcAaQBkAGcAZQB0AAAAAAD/////AAAAQgD////7AAAADgBsAGkAYgByAGEAcgB5AAAAAAD/////AAAAUgD////7AAAAGgBhAHUAZABpAG8AcwBwAGUAYwB0AHIAdQBtAAAAAAD/////AAAAZwD////7AAAAFgBwAHIAbwBqAGUAYwB0AF8AYgBpAG4BAAAAAAAAAQMAAACrAP////wAAAEIAAABXQAAAHkA////+gAAAAABAAAAAvsAAAAYAGUAZgBmAGUAYwB0AF8AcwB0AGEAYwBrAQAAAAD/////AAAAQAD////7AAAAHgBjAGwAaQBwAF8AcAByAG8AcABlAHIAdABpAGUAcwEAAAAA/////wAAAEAA/////AAAAmoAAAFeAAAAeQD////6AAAAAQEAAAAC+wAAAB4AdAByAGEAbgBzAGkAdABpAG8AbgBfAGwAaQBzAHQBAAAAAP////8AAAAAAP////sAAAAWAGUAZgBmAGUAYwB0AF8AbABpAHMAdAEAAAAA/////wAAAAAA/////AAAA80AAAOcAAABQAD////6AAAAAQEAAAAC+wAAABgAYwBsAGkAcABfAG0AbwBuAGkAdABvAHIBAAAAAP////8AAAFAAP////sAAAAeAHAAcgBvAGoAZQBjAHQAXwBtAG8AbgBpAHQAbwByAQAAAAD/////AAABQAD////7AAAAGAB1AG4AZABvAF8AaABpAHMAdABvAHIAeQAAAAAA/////wAAAEIA////+wAAABYAdgBlAGMAdABvAHIAcwBjAG8AcABlAAAAAAD/////AAABIwD////7AAAAEAB3AGEAdgBlAGYAbwByAG0AAAAAAP////8AAACdAP////sAAAAUAHIAZwBiAF8AcABhAHIAYQBkAGUAAAAAAP////8AAACaAP////sAAAASAGgAaQBzAHQAbwBnAHIAYQBtAAAAAAD/////AAABKAD////7AAAAFABzAGMAcgBlAGUAbgBnAHIAYQBiAAAAAAD/////AAAAPgD///8AAAdpAAAEPQAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAACAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAABgAZQB4AHQAcgBhAFQAbwBvAGwAQgBhAHIBAAACE/////8AAAAAAAAAAA==
+ToolBarsMovable=Disabled
+Width 1920=3840
+Width 3840=1897
+
+[Recent Dirs]
+KdenliveProjectsFolder[$e]=/media/robert/samba/clips/,/media/robert/samba/clips,/media/robert/samba/Sheik_research
+
+[Recent Files]
+File1[$e]=/media/robert/samba/clips/zelda.kdenlive
+File10[$e]=/media/robert/samba/clips/DownB4ever.kdenlive
+File2[$e]=/media/robert/samba/clips/reverse.kdenlive
+File3[$e]=/media/robert/samba/clips/tipman.kdenlive
+File4[$e]=/media/robert/samba/clips/combo.kdenlive
+File5[$e]=/media/robert/samba/clips/sheildbreak.kdenlive
+File6[$e]=/media/robert/samba/Sheik_research/Run off #1.kdenlive
+File7[$e]=/media/robert/samba/Sheik_research/Yoshi walljump 2.kdenlive
+File8[$e]=/media/robert/samba/clips/almost.kdenlive
+File9[$e]=/media/robert/samba/clips/wizz.kdenlive
+Name1[$e]=zelda.kdenlive
+Name10[$e]=DownB4ever.kdenlive
+Name2[$e]=reverse.kdenlive
+Name3[$e]=tipman.kdenlive
+Name4[$e]=combo.kdenlive
+Name5[$e]=sheildbreak.kdenlive
+Name6[$e]=Run off #1.kdenlive
+Name7[$e]=Yoshi walljump 2.kdenlive
+Name8[$e]=almost.kdenlive
+Name9[$e]=wizz.kdenlive
+
+[Scope_Histogram]
+autoRefresh=true
+bEnabled=true
+gEnabled=true
+rEnabled=true
+realtime=false
+rec601=false
+sEnabled=false
+yEnabled=true
+
+[Scope_RGB Parade]
+autoRefresh=true
+axis=false
+gradref=false
+paintmode=0
+realtime=false
+
+[Scope_Vectorscope]
+75PBox=false
+autoRefresh=true
+axis=false
+backgroundmode=0
+colorspace_ypbpr=false
+gain=1
+iqlines=false
+paintmode=0
+realtime=false
+
+[Scope_Waveform]
+autoRefresh=true
+paintmode=0
+realtime=false
+rec601=false
+
+[bin]
+treeviewheaders=AAAA/wAAAAAAAAABAAAAAAAAAAABAAAAAAAAAAAAAAADBgAAAAIAAAACAAAAYAAAAAEAAAA0AAAAqQAAAAMBAQABAAAAAAAAAAAAAAAAYP////8AAACBAAAAAAAAAAMAAACpAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAPoAAAAADs=
+
+[capture]
+decklink_capturedevice=4294967295
+decklink_extension=mov
+decklink_parameters=vcodec=dnxhd vb=145000k acodec=pcm_s16le threads=%threads
+defaultaudiocapture=0
+detectedv4ldevices=4294967295
+grab_extension=mov
+grab_parameters=-crf 25 -vcodec libx264 -preset veryfast -threads 0
+v4l_extension=mpg
+v4l_parameters=qscale=4 ab=192k vcodec=mpeg2video acodec=mp2 threads=%threads
+
+[env]
+defaultimageapp=/usr/bin/gimp
+defaultprojectfolder[$e]=$HOME/Documents
+encodethreads=6
+ffmpegpath[$e]=/usr/bin/ffmpeg
+ffplaypath[$e]=/usr/bin/ffplay
+ffprobepath[$e]=/usr/bin/ffprobe
+mltpath[$e]=/usr/share/mlt/profiles
+rendererpath[$e]=/usr/bin/melt
+
+[project]
+externalProxyProfile=../Sub;;S03.MP4;../Clip;;.MXF
+proxyextension=mkv
+proxyparams=-vf yadif,scale=960:-2 -qscale 3 -vcodec mjpeg -acodec pcm_s16le
+
+[sdl]
+audiobackend=sdl2_audio
+blackmagic_output_device=-1
+sdlAudioBackend=sdl2_audio
+
+[settings]
+dialogSize=1024,700
+
+[shuttle]
+shuttlebuttons=button0=monitor_pause
+
+[timeline]
+trackheight=57
+useTimelineZoneToEdit=true
+
+[unmanaged]
+automatictransitions=false
+current_profile=atsc_1080p_2997
+default_profile=atsc_1080p_2997
+defaultrescaleheight=180
+force_breeze=true
+monitor_audio=false
+producerslist=frei0r.ising0r,frei0r.lissajous0r,frei0r.nois0r,frei0r.onecol0r,frei0r.partik0l,frei0r.plasma,frei0r.test_pat_B,frei0r.test_pat_C,frei0r.test_pat_G,frei0r.test_pat_I,frei0r.test_pat_L,frei0r.test_pat_R,slowmotion,pgm,qimage,qtext,kdenlivetitle,abnormal,color,colour,consumer,hold,loader,melt,melt_file,noise,timewarp,tone,xml,xml-string,xml-nogl,blipflash,count,ladspa.1416,ladspa.1885,ladspa.1881,ladspa.1047,ladspa.1050,decklink,framebuffer,avformat,avformat-novalidate,sdl_image,pango,pixbuf
+project_display_ratio=1.7777777777777777
+project_fps=29.97002997002997
+widgetstyle=Default
+
+[version]
+version=19.04.2

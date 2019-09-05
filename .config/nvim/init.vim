@@ -1,27 +1,3 @@
-"=====================================================
-"      __ __ _             __    ___   ___  _
-"     / //_/(_)___  ___ _ / /__ |_  | |_  |( )___
-"    / ,<  / // _ \/ _ `//  '_// __/ / __/ |/(_-<
-"   /_/|_|/_//_//_/\_, //_/\_\/____//____/  /___/
-"                 /___/
-"                           _
-"     ___  ___  ___  _  __ (_)__ _
-"    / _ \/ -_)/ _ \| |/ // //  ' \
-"   /_//_/\__/ \___/|___//_//_/_/_/
-"
-"     _____             ___ _
-"    / ___/___   ___   / _/(_)___ _
-"   / /__ / _ \ / _ \ / _// // _ `/
-"   \___/ \___//_//_//_/ /_/ \_, /
-"                           /___/
-"
-"=====================================================
-
-" Always exit all files
-
-" cnoreabbrev q qa
-
-"=====================================================
 
 " Auto commands
 
@@ -36,6 +12,51 @@ augroup END
 
 "=====================================================
 
+"vim-plug
+
+"specify a directory for plugins
+" - For Neovim: ~/.local/share/nvim/plugged
+"   " - Avoid using standard Vim directory names like 'plugin'
+call plug#begin('~/.config/nvim/plugged')
+"
+"   " Make sure you use single quotes
+
+"Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+
+Plug 'fatih/molokai'
+
+Plug 'challenger-deep-theme/vim', { 'as': 'challenger-deep' }
+
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+
+Plug '~/.config/nvim/plugged/raabcolors'
+
+Plug 'jiangmiao/auto-pairs'
+
+Plug 'Yggdroot/indentLine'
+
+Plug 'SirVer/ultisnips'
+
+Plug 'honza/vim-snippets'
+
+
+call plug#end()
+"=====================================================
+"Snippets
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+
+
+"=====================================================
+"cmds
+command Cfg edit ~/.config/nvim/init.vim
+
+"=====================================================
+"deoplete
+let g:deoplete#enable_at_startup = 1
+
+"=====================================================
 " Indenting
 
 set autoindent
@@ -43,6 +64,8 @@ set smartindent
 
 set shiftwidth=4
 
+let g:indentLine_char = '⎸'
+let g:indentLine_color_term = 239
 "=====================================================
 
 " Natural split
@@ -54,10 +77,10 @@ set splitright
 
 " Nerdtree
 
-noremap <F10> :NERDTreeToggle<CR>
-noremap <F5> :NERDTreeFocus<CR>
+"noremap <TAB> :NERDTreeToggle<CR>
+"noremap <F5> :NERDTreeFocus<CR>
 
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+"autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
 "=====================================================
 
@@ -71,11 +94,6 @@ set nobackup
 
 set expandtab
 
-"=====================================================
-
-" Pickachu
-
-let g:pickachu_default_date_format = "%d.%m.%Y"
 
 "=====================================================
 
@@ -137,6 +155,24 @@ set scrolloff=5
 set shortmess=atI
 set ttyfast
 
+"if (empty($TMUX))
+"  if (has("nvim"))
+"    "For Neovim 0.1.3 and 0.1.4 < https://github.com/neovim/neovim/pull/2198 >
+"    let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+"  endif
+  "For Neovim > 0.1.5 and Vim > patch 7.4.1799 < https://github.com/vim/vim/commit/61be73bb0f965a895bfb064ea3e55476ac175162 >
+  "Based on Vim patch 7.4.1770 (`guicolors` option) < https://github.com/vim/vim/commit/8a633e3427b47286869aa4b96f2bfc1fe65b25cd >
+  " < https://github.com/neovim/neovim/wiki/Following-HEAD#20160511 >
+"  if (has("termguicolors"))
+"    set termguicolors
+"  endif
+"endif
+
+"let g:onedark_termcolors=256
+syntax on
+colorscheme raabcolors
+"colorscheme challenger_deep
+"colorscheme molokai
 "=====================================================
 
 " Wrapping
@@ -151,4 +187,19 @@ vnoremap <up> gk
 
 "=====================================================
 
+" netrw
+"
+let g:netrw_banner = 1
+let g:netrw_liststyle = 3
+let g:netrw_browse_split = 4
+let g:netrw_altv = 1
+let g:netrw_winsize = 25
 
+noremap <TAB> :Vexplore<CR>
+
+"augroup ProjectDrawer
+"  autocmd!
+"
+"  autocmd VimEnter * :Vexplore
+"
+"augroup END

@@ -1,0 +1,4 @@
+#command
+p shell git pull $gitaddr\n
+c shell git clone $gitaddr\n
+b shell firefox $ghaddr\n

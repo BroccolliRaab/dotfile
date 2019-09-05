@@ -1,0 +1,154 @@
+html, body{
+  background-color: #111 !important;
+  color: #C1C1C1;
+}
+h1, h2, h3, h4, h5{
+  color: #C1C1C1;
+}
+href, a{
+  color: steelblue;
+}
+p{
+  color: #C1C1C1;
+}
+
+div#cpp-head-second-base {
+	background: #111;
+	background-image: url(https://en.cppreference.com/mwiki/skins/cppreference2/images/page-fade.png?2013-09-04T19:18:20Z)!ie;
+	background-position: bottom left;
+	background-repeat: repeat-x;
+}
+div, div#content, #content, div#cpp-content-base, div#cpp-head-first-base,  div.vectorTabs span {
+  background-color: #111;
+  color:  #c1c1c1;
+  border-color: black;
+}
+.t-navbar-menu > div {
+  background-color: #111;
+}
+.t-mark, .t-mark-rev {
+  color: pink;
+}
+table, table.wikitable, table.wikitable > tr > th, table.wikitable > * > tr > th, .t-inherited{
+  background-color: #111;
+  color: #C1C1C1;
+}
+.mainpagetable tr.rowtop td, .mainpagetable tr.row td{
+  background-color:  #111;
+}
+a, div.vectorTabs ul li a {
+  color:blanchedalmond;
+}
+.selflink, div.vectorTabs li.selected a, div.vectorTabs li.selected a:visited{
+  color: rosybrown;
+}
+ul {
+	line-height: 1.5em;
+	list-style-type: square;
+	margin: 0.3em 0px 0px 1.5em;
+	padding: 0px;
+	list-style-image: url();
+}
+
+a.new{
+  color: rosybrown;
+}
+div#content a.external, div#content a.extiw{
+  color: aquamarine;
+}
+.t-mark-rev.t-mark-ts{
+  color: #988BC6;
+  
+}
+th, td{
+
+  border-color: #444 !important;
+}
+
+.t-c, .t-rev-inl{
+  border: 1px solid #444;
+  border-top-left-radius: 3px;
+
+  border-top-right-radius: 3px;
+
+  border-bottom-right-radius: 3px;
+
+  border-bottom-left-radius: 3px;
+
+  margin: 0px 2px;
+
+  padding: 0px 2px;
+
+  display: inline-block;
+}
+table.ambox{
+  background-color: darkslategray;  
+}
+table.ambox-notice{
+  border-bottom-color: #3F3F3F;
+  border-right-color: #3F3F3F;
+  border-top-color: #3F3F3F;
+  border-left-color: seagreen;
+
+}
+table.fmbox-system{
+  background-color: #122;
+}
+.mw-collapsible{
+  border: 1px solid #666 !important;;
+}
+.mw-collapsible > tbody:nth-child(1) > tr:nth-child(1) > th:nth-child(1){
+  background: #122 !important;
+}
+.mw-collapsible > tbody:nth-child(1) > tr:nth-child(2) > td:nth-child(1){
+  background: #111 !important;;
+}
+.t-member{
+  background-color: #111;
+}
+.t-rev > td {
+	padding: 0.5em 0.5em;
+}
+div#cpp-footer-base, div#footer, div#cpp-languages div, div#cpp-toolbox, div#cpp-navigation, div#footer ul li{
+  background-color: #222;
+  color: #C1C1C1; 
+}
+
+
+
+
+
+
+pre, div.mw-geshi{
+  background-color: #222;
+  color: #C1C1C1;
+  font-family: "Fira Code", DejaVuSansMono, "DejaVu Sans Mono", courier, monospace !important;
+}
+.c.source-c .co2, .cpp.source-cpp .co2{
+  color: #8585AF;
+}
+.c.source-c .kw1, .cpp.source-cpp .kw1{
+  color: #D04500;
+}
+.c.source-c .kw2, .cpp.source-cpp .kw2{
+  color: peru;
+}
+.c.source-c .kw4,  .cpp.source-cpp .kw4 {
+  color: #00A0A0;
+}
+.c.source-c .nu0, .c.source-c .nu8, .c.source-c .nu12, .c.source-c .nu16, .cpp.source-cpp .nu0, .cpp.source-cpp .nu8, .cpp.source-cpp .nu12, .cpp.source-cpp .nu16 {
+  color: skyblue;
+}
+.c.source-c .st0, .c.source-c .es1, .cpp.source-cpp .st0, .cpp.source-cpp .es1{
+  color: palevioletred;
+}
+
+.c.source-c .sy1, .c.source-c .sy2, .cpp.source-cpp .sy1, .cpp.source-cpp .sy2, .c.source-c .sy3, .cpp.source-cpp .sy3{
+  color: #C1C1C1;
+}
+.c.source-c .kw100, .cpp.source-cpp .kw100{
+  color: darkseagreen;
+}
+.mw-geshi a{
+  color: darkseagreen;
+}

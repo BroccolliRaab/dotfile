@@ -1,0 +1,144 @@
+# You can edit this file by hand, but it's recommended not to do that.
+
+# Marks:
+'H
+	/home/robert/
+	..
+1547652278
+'b
+	/home/robert/bin/
+	..
+1549735219
+'c
+	/home/marslo/Study/Codes
+	..
+1549735219
+'h
+	/home/robert/
+	..
+1549735219
+'n
+	/home/marslo/Study/Notes
+	..
+1549735219
+'s
+	/home/marslo/Study/Scripts
+	..
+1549735219
+'t
+	/home/marslo/Tools
+	..
+1549735219
+'v
+	/home/robert/.vifm
+	..
+1549735219
+'z
+	/home/robert/.config/vifm
+	..
+1547652278
+
+# TUI:
+al
+q1
+v2
+ov
+m-1
+l2
+r2
+
+# Left window history (oldest to newest):
+d/home/robert
+	.config
+5
+d/home/robert/.config
+	vifm
+51
+d/home/robert/.config/vifm
+	vifmrc
+5
+d/home/robert/.config
+	vifm
+51
+d/home/robert
+	.config
+5
+d/home
+	robert
+2
+d/
+	home
+5
+d/home
+	robert
+2
+d/home/robert
+	.config
+5
+d/home/robert/.config
+	vifm
+51
+d/home/robert/.config/vifm
+	vifmrc
+5
+d
+
+# Right window history (oldest to newest):
+D/home/robert
+	..
+0
+D/home
+	robert
+2
+D/
+	etc
+3
+D
+
+# Command line history (oldest to newest):
+:q
+
+# Search history (oldest to newest):
+
+# Prompt history (oldest to newest):
+
+# Registers:
+
+# Directory stack (oldest to newest):
+
+# Trash content:
+t/home/robert/.local/share/vifm/Trash/000_2018-12-08_21-47-24(1).mp4
+	/home/robert/2018-12-08_21-47-24(1).mp4
+t/home/robert/.local/share/vifm/Trash/000_2018-12-08_21-47-24(10).mp4
+	/home/robert/2018-12-08_21-47-24(10).mp4
+t/home/robert/.local/share/vifm/Trash/000_2018-12-08_21-47-24(2).mp4
+	/home/robert/2018-12-08_21-47-24(2).mp4
+t/home/robert/.local/share/vifm/Trash/000_2018-12-08_21-47-24(3).mp4
+	/home/robert/2018-12-08_21-47-24(3).mp4
+t/home/robert/.local/share/vifm/Trash/000_2018-12-08_21-47-24(4).mp4
+	/home/robert/2018-12-08_21-47-24(4).mp4
+t/home/robert/.local/share/vifm/Trash/000_2018-12-08_21-47-24(5).mp4
+	/home/robert/2018-12-08_21-47-24(5).mp4
+t/home/robert/.local/share/vifm/Trash/000_2018-12-08_21-47-24(6).mp4
+	/home/robert/2018-12-08_21-47-24(6).mp4
+t/home/robert/.local/share/vifm/Trash/000_2018-12-08_21-47-24(7).mp4
+	/home/robert/2018-12-08_21-47-24(7).mp4
+t/home/robert/.local/share/vifm/Trash/000_2018-12-08_21-47-24(8).mp4
+	/home/robert/2018-12-08_21-47-24(8).mp4
+t/home/robert/.local/share/vifm/Trash/000_2018-12-08_21-47-24(9).mp4
+	/home/robert/2018-12-08_21-47-24(9).mp4
+t/home/robert/.local/share/vifm/Trash/000_naruto_tier_list
+	/home/robert/naruto_tier_list
+t/home/robert/.local/share/vifm/Trash/000_nohup.out
+	/home/robert/nohup.out
+
+# State:
+f
+i1
+[.0
+[F
+F
+I1
+].1
+]F
+s0
