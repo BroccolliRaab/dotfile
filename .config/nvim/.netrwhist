@@ -1,10 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =8
-let g:netrw_dirhist_1='/home/robert/.config/kitty'
-let g:netrw_dirhist_2='/home/robert/.config/i3'
-let g:netrw_dirhist_3='/home/robert/.themes/Xfce-dusk-green/gtk-2.0'
-let g:netrw_dirhist_4='/home/robert/.themes/Xfce-dusk-green'
-let g:netrw_dirhist_5='/home/robert/.config/kitty'
-let g:netrw_dirhist_6='/home/robert/programming/lhub'
-let g:netrw_dirhist_7='/home/robert/.ncmpcpp'
-let g:netrw_dirhist_8='/etc/X11/xinit'
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='scp://robert@10.0.0.203:22/fivem/cfx/cfx-server-data/resources/jobs/'
+let g:netrw_dirhist_2='/home/robert'
+let g:netrw_dirhist_3='scp://robert@10.0.0.203:22/fivem/cfx/cfx-server-data/resources/jobs/'

@@ -2,13 +2,15 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/robert/.oh-my-zsh
+  export ZSH=~/.oh-my-zsh
  
 # Set name of the theme to load. Optionally, if you set this to "random"
 
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="mh"
+ZSH_THEME="mhCUST"
+
+neofetch
 
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
@@ -16,7 +18,7 @@ ZSH_THEME="mh"
 # looking in ~/.oh-my-zsh/themes/
 # An empty array have no effect
 # ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
-neofetch
+
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
@@ -64,7 +66,7 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
-
+source ~/.cargo/env
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -90,12 +92,23 @@ source $ZSH/oh-my-zsh.sh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 #
+#
+export EDITOR=nvim
+export PATH=$PATH:$HOME/dotnet                              
+export MDV_THEME='884.0134'  
+export MDV_CODE_THEME='528.9419'    
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias calc="lua /home/robert/bin/calc/calc.lua"
 alias tb="nc termbin.com 9999"
-alias xbpsi="xbps-install"
-alias xbpsr="xbps-remove"
-alias xbpsq="xbps-query"
+alias xbpsi="sudo xbps-install"
+alias xbpsr="sudo xbps-remove"
+alias zbpsq="xbps-query"
+alias zshrc="vim ~/.zshrc"
 alias dc="sl"
+alias mdc=". ~/bin/mdc/mdc.sh"
+alias music='tmux new-session "tmux source-file ~/.ncmpcpp/tmux_session"' # Tmux session with ncmpcpp and cover art
+
+# opam configuration
+test -r /home/robert/.opam/opam-init/init.zsh && . /home/robert/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
